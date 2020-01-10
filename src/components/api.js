@@ -1,6 +1,9 @@
 import React, { useState } from "react";
 import useApi from "./useApi";
-
+/**
+ * @function Api will display data from an api call in useApi 
+ * @param {object} props 
+ */
 function Api(props) {
   const [click, setClick] = useState(0);
   let advice = useApi(click);
