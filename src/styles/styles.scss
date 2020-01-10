@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald|Spicy+Rice&display=swap');
+.sunny{
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: fill;
+  background-image: url(https://images.unsplash.com/photo-1515238152791-8216bfdf89a7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1952&q=80)
+}
+.cold{
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: fill;
+  background-image: url(https://images.unsplash.com/photo-1479123142480-cbdc7b84de24?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1878&q=80
+  )
+}
+.rain{
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: fill;
+  background-image: url(https://images.unsplash.com/photo-1523772721666-22ad3c3b6f90?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80)
+}
+.snow{
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: fill;
+  background-image: url(https://images.unsplash.com/photo-1548326050-782fa30808d0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80)
+}
+.warm{
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: fill;
+  background-image: url(https://images.unsplash.com/photo-1473147319958-21c51372f690?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1952&q=80)
+}
+.App {
+  font-family: 'Oswald', sans-serif;
+  font-size: 23px;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.685);
+  max-width: 400px;
+  // height: 300px;
+  border-radius: 25%;
+  h1{
+    font-family: 'Spicy Rice', cursive;
+  }
+  .nav {
+    display: flex;
+    justify-content: center;
+    a{margin: 2.5px;}
+  }
+}
+
