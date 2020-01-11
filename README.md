@@ -27,4 +27,4 @@ Ensure that the `socket.js` line 7-8 server url is up to date
 `npm test`
 
 #### UML
-Link to an image of the UML for your application and response to events
+![UML](./assets/UML.jpg)
