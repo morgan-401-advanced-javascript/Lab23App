@@ -1,5 +1,5 @@
 import React from 'react';
-import App from '../components/App';
+import Api from '../components/api';
 import {configure, mount} from 'enzyme';
 import Adapter from 'enzyme-adapter-react-16';
 import renderer from 'react-test-renderer';
@@ -12,17 +12,17 @@ describe('', () => {
     });
 });
 
-describe('App component', () => {
+describe('Api component', () => {
     it('renders correctly', () => {
-        const page = renderer.create(<App />).toJSON();
+        const page = renderer.create(<Api />).toJSON();
         expect(page).toMatchSnapshot();
     });
 });
 
-describe('App Enzyme Testing', () => {
-    it('has a  Heading', () => {
-        let component = mount(<App />);
-        expect(component.find('div.App h1').text()).toBe(
-            'LAB 23!',
+describe('Api Enzyme Testing', () => {
+    it('has a Heading', () => {
+        let component = mount(<Api />);
+        expect(component.find('div h3').text()).toBe(
+            'Words of Wisdom',
         );
     })});

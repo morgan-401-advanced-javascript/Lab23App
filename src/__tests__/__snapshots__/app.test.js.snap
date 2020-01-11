@@ -1,0 +1,48 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App component renders correctly 1`] = `
+<div
+  className="App"
+>
+  <h1>
+    LAB 23!
+  </h1>
+  <div
+    className="nav nav-pills mb-3"
+    id="pills-tab"
+    role="tablist"
+  >
+    <div>
+      <a
+        className="btn btn-info"
+        href="/"
+        onClick={[Function]}
+      >
+        Home
+      </a>
+      <a
+        className="btn btn-info"
+        href="/sockets"
+        onClick={[Function]}
+      >
+        Check Weather
+      </a>
+      <a
+        className="btn btn-info"
+        href="/api"
+        onClick={[Function]}
+      >
+        Get Wise
+      </a>
+    </div>
+  </div>
+  <div>
+    <h3>
+      Welcome!
+    </h3>
+    <p>
+      Feel free to check the weather or receive wisdom.
+    </p>
+  </div>
+</div>
+`;

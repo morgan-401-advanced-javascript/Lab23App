@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Socket component renders correctly 1`] = `
+<div>
+  <h2>
+    How is the Weather?
+  </h2>
+  <p>
+    Are we connected to NOAA: 
+    false
+  </p>
+  <p>
+    Raining: 
+    false
+  </p>
+  <p>
+    Temp: 
+    0
+  </p>
+</div>
+`;
