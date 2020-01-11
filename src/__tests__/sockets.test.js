@@ -14,7 +14,7 @@ describe('', () => {
 });
 
 describe('Socket component', () => {
-    it('renders correctly', () => {
+    it('renders correctly', async() => {
         const page = renderer.create(< Socket/>).toJSON();
         expect(page).toMatchSnapshot();
     });
