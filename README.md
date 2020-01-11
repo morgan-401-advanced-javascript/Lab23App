@@ -25,6 +25,7 @@ Ensure that the `socket.js` line 7-8 server url is up to date
 #### Tests
 * How do you run tests?
 `npm test`
+* Could not add coverage & verbose to travis due to a handlebars version issue.
 
 #### UML
 ![UML](./assets/UML.jpg)
