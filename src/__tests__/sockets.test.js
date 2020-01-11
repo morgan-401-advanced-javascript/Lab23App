@@ -13,21 +13,21 @@ describe('', () => {
     });
 });
 
-describe('Socket component', () => {
+xdescribe('Socket component', () => {
     it('renders correctly', async() => {
         const page = renderer.create(< Socket/>).toJSON();
         expect(page).toMatchSnapshot();
     });
 });
 
-describe('Socket Enzyme Testing', () => {
+xdescribe('Socket Enzyme Testing', () => {
     it('has a Heading', () => {
         let component = mount(<Socket />);
         expect(component.find('div h2').text()).toBe(
             'How is the Weather?',
         );
     })});
-describe('Socket Enzyme Testing', () => {
+xdescribe('Socket Enzyme Testing', () => {
     it('Correct number of Children', () => {
         let component = mount(<Socket />);
         expect(component.find('div').children().length).toEqual(
