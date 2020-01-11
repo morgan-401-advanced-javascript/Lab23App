@@ -1,5 +1,8 @@
 import React from "react";
-
+/**
+ * @function Home this is the homepage/default component.
+ * @param {object} props 
+ */
 function Home(props) {
   return (
     <div>

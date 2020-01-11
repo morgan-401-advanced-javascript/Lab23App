@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Api component renders correctly 1`] = `
+<div>
+  <h3>
+    Words of Wisdom
+  </h3>
+  <div>
+    <p />
+    <button
+      className="btn btn-outline-primary"
+      onClick={[Function]}
+    >
+      New Advice
+    </button>
+  </div>
+</div>
+`;

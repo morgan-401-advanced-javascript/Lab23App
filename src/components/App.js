@@ -5,7 +5,10 @@ import Header from "./header.js";
 import Api from "./api.js";
 import Sockets from "./sockets";
 import bootstrap from "bootstrap";
-
+/**
+ * @function App this is our primary application and will call all of the other components for the App
+ * 
+ */
 function App() {
   return (
     <BrowserRouter>

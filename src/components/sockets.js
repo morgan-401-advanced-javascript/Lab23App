@@ -1,9 +1,12 @@
 import useSockets from "./useSocket";
 import React from "react";
-// Sockets that can connect to:
-// https://lab23server.herokuapp.com/
-// http://localhost:3005/
+/**
+ * @function Socket this will connect and retreive data from a socket server
+ */
 function Socket() {
+  // Sockets that can connect to:
+  // https://lab23server.herokuapp.com/
+  // http://localhost:3005/
   const { isConnected, temp, precip } = useSockets(
     "https://lab23server.herokuapp.com/"
   );
@@ -22,9 +25,6 @@ function Socket() {
   if (temp < 75 && temp > 32 && precip === false) {
     document.getElementsByTagName("body")[0].className = "warm";
   }
-
-  function setStyle(temp, precip) {}
-  console.log(document.getElementsByTagName("body")[0]);
   return (
     <div>
       <h2>How is the Weather?</h2>
